@@ -32,7 +32,7 @@ uvicorn API:app
 ````
 API hosted at
 ```bash
-http://127.0.0.1:8000/predict
+http://127.0.0.1:8000/docs
 ```
 
 ## Installation
