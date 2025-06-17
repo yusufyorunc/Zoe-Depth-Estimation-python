@@ -7,7 +7,7 @@
 
 ## Usage/Examples
 
-```python
+```bash
 usage: CLI.py [-h] input_image output_image
 
 Depth Estimation Model CLI.
