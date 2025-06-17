@@ -33,7 +33,3 @@ class DeptEstimationModel:
         depth_numpy = self.model.infer_pil(image)
         self.save_color_depth(depth_numpy, output_path)
         return f"Depth map saved to {output_path}"
-
-
-model = DeptEstimationModel()
-model.calculate_depthmap("./test_image.png", "output_image.png")
