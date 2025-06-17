@@ -45,9 +45,9 @@ pip install -r requirements.txt
     
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, add the following environment variable to your .env file:
 
-`API_KEY`
+- `API_KEY`: Visit [imgbb API](https://api.imgbb.com/) to obtain your API key.
 
 
 
