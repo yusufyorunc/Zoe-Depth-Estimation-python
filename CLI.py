@@ -4,9 +4,9 @@ from predictory import DeptEstimationModel
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Depth Estimation Model CLI")
-    parser.add_argument("input_image", type=str, help="Path to the input image")
-    parser.add_argument("output_image", type=str, help="Path to the output depth map")
+    parser = argparse.ArgumentParser(description="Depth Estimation Model CLI.")
+    parser.add_argument("input_image", type=str, help="Path to the input image.")
+    parser.add_argument("output_image", type=str, help="Path to the output depth map.")
     args = parser.parse_args()
 
     model = DeptEstimationModel()
