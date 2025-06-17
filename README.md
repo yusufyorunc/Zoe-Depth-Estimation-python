@@ -1,12 +1,22 @@
 
 # Zoe Depth Estimation
 
-2D image to depth estimation map
+Project: Zoe Depth Estimation
+
+Description:
+This project converts 2D images into detailed depth maps using advanced machine learning and computer vision techniques. The generated depth maps provide per-pixel distance information, which is essential for applications like augmented reality, 3D scene reconstruction, and automated object detection.
+
+Features:
+- Implements state-of-the-art algorithms for single-image depth estimation.
+- Facilitates the understanding of spatial structures in scenes.
+- Serves as a basis for developing enhanced computer vision and AR applications.
+
 
 
 
 ## Usage/Examples
 
+### CLI Usage
 ```bash
 usage: CLI.py [-h] input_image output_image
 
@@ -19,7 +29,14 @@ positional arguments:
 options:
   -h, -help        show this help message and exit
 ```
-
+### API Usage
+````bash
+uvicorn API:app
+````
+API hosted at
+```bash
+http://127.0.0.1:8000/predict
+```
 
 ## Installation
 
