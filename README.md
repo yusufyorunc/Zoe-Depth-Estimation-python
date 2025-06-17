@@ -3,7 +3,6 @@
 
 Project: Zoe Depth Estimation
 
-Description:
 This project converts 2D images into detailed depth maps using advanced machine learning and computer vision techniques. The generated depth maps provide per-pixel distance information, which is essential for applications like augmented reality, 3D scene reconstruction, and automated object detection.
 
 Features:
