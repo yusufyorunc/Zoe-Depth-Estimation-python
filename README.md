@@ -1,7 +1,9 @@
 # Zoe Depth Estimation
 
-![Input Image](api_images/b506e461-60f0-4021-99e6-470673fdd42f.jpg)
-![Depth Map Output](api_images/outputb506e461-60f0-4021-99e6-470673fdd42f.png)
+<div style="display: flex; gap: 10px;">
+    <img src="api_images/b506e461-60f0-4021-99e6-470673fdd42f.jpg" width="400" alt="Input Image">
+    <img src="api_images/outputb506e461-60f0-4021-99e6-470673fdd42f.png" width="400" alt="Depth Map Output">
+</div>
 
 This project converts 2D images into detailed depth maps using advanced machine learning and computer vision techniques. The generated depth maps provide per-pixel distance information, which is essential for applications like augmented reality, 3D scene reconstruction, and automated object detection.
 
